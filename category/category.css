@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+}
+
+#page-category-section-category-list .category-list {
+    display: grid;
+    list-style: none;
+    padding: 2rem 0;
+    margin: 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#page-category-section-category-list .category-list .category-item {
+    text-align: center;
+    margin-bottom: 2rem;
+}
